@@ -2,10 +2,9 @@
 
 ###Literature:
 
-- 'Das Sieb des Eratosthenes: Wie schnell kann man eine Primzahlentabelle berechnen?''
+- [Das Sieb des Eratosthenes: Wie schnell kann man eine Primzahlentabelle berechnen?](https://prof.beuth-hochschule.de/fileadmin/user/oellrich/eratosthenes.pdf)
 
-    by **Rolf Möhring und Martin Oellrich **
-    *Institut für Mathematik, Technische Universität Berlin*
+    by *Rolf Möhring und Martin Oellrich Institut für Mathematik, Technische Universität Berlin*
 
 ### List of algorithms
 
