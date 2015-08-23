@@ -1,5 +1,12 @@
 ## Implemention of the algorithms
 
+###Literature:
+
+- 'Das Sieb des Eratosthenes: Wie schnell kann man eine Primzahlentabelle berechnen?''
+
+    by **Rolf Möhring und Martin Oellrich **
+    *Institut für Mathematik, Technische Universität Berlin*
+
 ### List of algorithms
 
  `eratosthenes.py`
