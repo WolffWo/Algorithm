@@ -1,5 +1,3 @@
 # Algorithm
 
 Introduction to Algorithms
-
-## 

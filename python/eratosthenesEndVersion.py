@@ -1,8 +1,8 @@
 #! /usr/bin/env python
-import timeit
+import timeit, math
 
 """
-Sieve of Eratosthenes
+Sieve of Eratosthenes better version
 
 When the algorithm terminates,
 the numbers remaining in the array are
@@ -16,9 +16,10 @@ def sieve(n):
     arr = []  # create array
     for i in range(2, n):
         arr.append(i)  # fill array with all number between 2 and N
-    for k in range(2, n):
-        for j in range(k, n):
-                if k*j in arr:
+    for k in range(2, int(math.sqrt(n))):
+        if k in arr:
+            for j in range(int(n/k), k):
+                if j in arr:
                     arr.remove(k*j)  # remove number
     return arr  # array with all prime numbers
 
