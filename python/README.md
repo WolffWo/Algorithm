@@ -2,16 +2,12 @@
 
 ###Literature:
 
-<<<<<<< HEAD
+
 - ['Das Sieb des Eratosthenes: Wie schnell kann man eine Primzahlentabelle berechnen?'](
 https://prof.beuth-hochschule.de/fileadmin/user/oellrich/eratosthenes.pdf)
     by *Rolf Möhring und Martin Oellrich
     *Institut für Mathematik, Technische Universität Berlin*
-=======
-- ['Das Sieb des Eratosthenes: Wie schnell kann man eine Primzahlentabelle berechnen?'](https://prof.beuth-hochschule.de/fileadmin/user/oellrich/eratosthenes.pdf)
 
-    by *Rolf Möhring und Martin Oellrich Institut für Mathematik, Technische Universität Berlin*
->>>>>>> origin/master
 
 - Useful for testing http://www.arndt-bruenner.de/mathe/scripts/primzahlen.htm
 
