@@ -23,16 +23,18 @@ def sieve(n):
     return arr  # array with all prime numbers
 
 prime = []
-result = [[]]*12
-for n in range(1, 12):
-    print 'calc run-time for :' + str(pow(2, n))  # print lenght of array
+result = [[]]*3
+for n in range(1, 4):
+    print 'calc run-time for :' + str(pow(10, n))  # print lenght of array
     start = timeit.default_timer()  # start measure time
-    prime = sieve(pow(2, n))  # calc prime numbers
+    prime = sieve(pow(10, n))  # calc prime numbers
     stop = timeit.default_timer()  # stop measure time
     time = stop - start  # print run-time
-    result[n-1] = [pow(2, n), time]
+    result[n-1] = [pow(10, n), time, len(prime)]
 
-print "| n    | time  |"
-print "|------|-------|"
-for n in range(1, 12):
-    print "| " + str(result[n-1][0]) + " | " + str(result[n-1][1]) + " |"
+print "| n    | time  | # prime numbers  |"
+print "|------|-------|------------------|"
+for n in range(1, 4):
+    print "| " + str(result[n-1][0]) + " | " + str(result[n-1][1]) + " |",
+    print str(result[n-1][2]) + " |"
+print sieve(100)

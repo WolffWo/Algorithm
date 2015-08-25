@@ -2,77 +2,56 @@
 
 ###Literature:
 
-- 'Das Sieb des Eratosthenes: Wie schnell kann man eine Primzahlentabelle berechnen?''
-
-    by **Rolf Möhring und Martin Oellrich **
+<<<<<<< HEAD
+- ['Das Sieb des Eratosthenes: Wie schnell kann man eine Primzahlentabelle berechnen?'](
+https://prof.beuth-hochschule.de/fileadmin/user/oellrich/eratosthenes.pdf)
+    by *Rolf Möhring und Martin Oellrich
     *Institut für Mathematik, Technische Universität Berlin*
+=======
+- ['Das Sieb des Eratosthenes: Wie schnell kann man eine Primzahlentabelle berechnen?'](https://prof.beuth-hochschule.de/fileadmin/user/oellrich/eratosthenes.pdf)
+
+    by *Rolf Möhring und Martin Oellrich Institut für Mathematik, Technische Universität Berlin*
+>>>>>>> origin/master
+
+- Useful for testing http://www.arndt-bruenner.de/mathe/scripts/primzahlen.htm
 
 ### List of algorithms
 
- `eratosthenes.py`
+`eratosthenes.py`
   - Calc a table of prime numbers from 2 to n and the run time. Using the algorithm of eratosthenes. Be careful with n!
 
-| n    | run time  |
-|------|-------|
-| 2 | 5.00679016113e-06 |
-| 4 | 1.12056732178e-05 |
-| 8 | 2.19345092773e-05 |
-| 16 | 9.20295715332e-05 |
-| 32 | 0.000301837921143 |
-| 64 | 0.00114989280701 |
-| 128 | 0.00701189041138 |
-| 256 | 0.0404069423676 |
-| 512 | 0.294997930527 |
-| 1024 | 2.09392404556 |
-| 2048 | 14.6063799858 |
+| n    | time  | # prime numbers  |
+|------:|-------|------------------:|
+| 10 | 5.19752502441e-05 | 4 |
+| 100 | 0.00389409065247 | 25 |
+| 1000 | 1.91667890549 | 168 |
 
 `eratosthenesBetter.py`
+
  - Better algorithms
 
-| n    | time  |
-|------|-------|
-| 2 | 1.62124633789e-05 |
-| 4 | 8.10623168945e-06 |
-| 8 | 8.10623168945e-06 |
-| 16 | 2.09808349609e-05 |
-| 32 | 5.07831573486e-05 |
-| 64 | 0.000117063522339 |
-| 128 | 0.000318050384521 |
-| 256 | 0.00105309486389 |
-| 512 | 0.0045268535614 |
-| 1024 | 0.0182278156281 |
-| 2048 | 0.0808811187744 |
+| n    | time  | # prime numbers  |
+|------:|-------|------------------:|
+| 10 | 3.60012054443e-05 | 4 |
+| 100 | 0.000226020812988 | 25 |
+| 1000 | 0.0174708366394 | 168 |
 
  `eratosthenesEvenBetter.py`
   - Even better algorithms
 
-| n    | time  |
-|------|-------|
-| 2 | 2.19345092773e-05 |
-| 4 | 5.96046447754e-06 |
-| 8 | 5.00679016113e-06 |
-| 16 | 1.50203704834e-05 |
-| 32 | 2.59876251221e-05 |
-| 64 | 0.000113964080811 |
-| 128 | 0.000257968902588 |
-| 256 | 0.000808000564575 |
-| 512 | 0.00319385528564 |
-| 1024 | 0.0119309425354 |
-| 2048 | 0.0495870113373 |
+| n    | time  | # prime numbers  |
+|------:|-------|------------------:|
+| 10 | 6.07967376709e-05 | 4 |
+| 100 | 0.000262975692749 | 25 |
+| 1000 | 0.0124711990356 | 168 |
+
 
  `eratosthenesEndVersion.py`
   - End version of the algorithms
 
-| n    | time  |
-|------|-------|
-| 2 | 1.4066696167e-05 |
-| 4 | 6.91413879395e-06 |
-| 8 | 8.10623168945e-06 |
-| 16 | 1.09672546387e-05 |
-| 32 | 2.71797180176e-05 |
-| 64 | 1.8835067749e-05 |
-| 128 | 8.98838043213e-05 |
-| 256 | 8.29696655273e-05 |
-| 512 | 0.000140905380249 |
-| 1024 | 0.000233888626099 |
-| 2048 | 0.000596046447754 |
+
+| n    | time  | # prime numbers  |
+|------:|-------|------------------:|
+| 10 | 4.41074371338e-05 | 4 |
+| 100 | 0.000207185745239 | 25 |
+| 1000 | 0.0142419338226 | 168 |
